@@ -27,7 +27,7 @@
   var quoteBtn = document.getElementById("quote-btn");
 
   // 本次代購匯率／手續費 — 需要調整時直接改這裡的數字即可
-  var DEFAULT_RATES = { fee: 1.5, jpy: 0.23, krw: 40, usd: 33.5, big: 300 };
+  var DEFAULT_RATES = { fee: 1.5, jpy: 0.23, krw: 39, usd: 33.5, big: 300 };
   var quoteOpen = false;
 
   function getRates(){

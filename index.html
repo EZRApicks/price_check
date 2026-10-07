@@ -38,6 +38,7 @@
     </div>
     <div class="amount-sum" id="amount-sum" hidden>合計 <strong id="amount-sum-value">¥0</strong></div>
 
+    <p class="rate-note">限購／需排隊搶購等商品，匯率另計：<br>日本 ×0.28 / 韓國 ÷38</p>
     <label class="chip-toggle" id="bigitem-wrap" for="bigitem">
       <input type="checkbox" id="bigitem">
       <span>
@@ -50,11 +51,22 @@
   <section class="terms-card">
     <h2 class="terms-title">•報價注意事項</h2>
     <div class="terms-body">
+      <p class="terms-lead">商品皆需等2-3週，可以等待再下單哦~</p>
       <div id="terms-jp">
+        <h4><svg class="sec-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>二補國際運費</h4>
+        <ul>
+          <li>出貨時依商品<span class="hl">最後實重</span>另計：<span class="hl">每 0.1kg NT$20</span>（每公斤 NT$200）</li>
+          <li>未滿 1 公斤：運費 × 總重（例：0.5kg → NT$100）</li>
+          <li>超過 1 公斤：運費 × 總重（例：1.1kg → NT$220）</li>
+        </ul>
+        <h4><svg class="sec-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z"/><path d="M3.3 7 12 12l8.7-5"/><path d="M12 22V12"/></svg>包材費</h4>
+        <ul>
+          <li>大體積／貴重物品 <span class="hl">每件 +NT$20</span></li>
+        </ul>
         <h4><svg class="sec-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12.586 2.586A2 2 0 0 0 11.172 2H4a2 2 0 0 0-2 2v7.172a2 2 0 0 0 .586 1.414l8.704 8.704a2.426 2.426 0 0 0 3.42 0l6.58-6.58a2.426 2.426 0 0 0 0-3.42z"/><circle cx="7.5" cy="7.5" r="1.5"/></svg>一般商品報價</h4>
         <span class="formula">日幣售價 × 1.015（手續費）× 0.23（匯率）</span>
         <ul>
-          <li>適用：藥妝／保養品／彩妝／零食／小型生活用品／飾品配件／服飾小物等</li>
+          <li>適用：零食／小型生活用品／飾品配件／服飾小物等</li>
         </ul>
         <h4><svg class="sec-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z"/><path d="M3.3 7 12 12l8.7-5"/><path d="M12 22V12"/></svg>大體積商品</h4>
         <ul>
@@ -78,10 +90,20 @@
         <p class="sign">謝謝大家的理解與配合，希望能在合理成本下持續帶回喜歡的日本商品</p>
       </div>
       <div id="terms-kr" hidden>
-        <h4><svg class="sec-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12.586 2.586A2 2 0 0 0 11.172 2H4a2 2 0 0 0-2 2v7.172a2 2 0 0 0 .586 1.414l8.704 8.704a2.426 2.426 0 0 0 3.42 0l6.58-6.58a2.426 2.426 0 0 0 0-3.42z"/><circle cx="7.5" cy="7.5" r="1.5"/></svg>一般商品報價</h4>
-        <span class="formula">韓幣售價 × 1.015（手續費）÷ 40（匯率）</span>
+        <h4><svg class="sec-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>二補國際運費</h4>
         <ul>
-          <li>適用：藥妝／保養品／彩妝／零食／小型生活用品／飾品配件／服飾小物等</li>
+          <li>出貨時依商品<span class="hl">最後實重</span>另計：<span class="hl">每 0.1kg NT$20</span>（每公斤 NT$200）</li>
+          <li>未滿 1 公斤：運費 × 總重（例：0.5kg → NT$100）</li>
+          <li>超過 1 公斤：運費 × 總重（例：1.1kg → NT$220）</li>
+        </ul>
+        <h4><svg class="sec-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z"/><path d="M3.3 7 12 12l8.7-5"/><path d="M12 22V12"/></svg>包材費</h4>
+        <ul>
+          <li>大體積／貴重物品 <span class="hl">每件 +NT$20</span></li>
+        </ul>
+        <h4><svg class="sec-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12.586 2.586A2 2 0 0 0 11.172 2H4a2 2 0 0 0-2 2v7.172a2 2 0 0 0 .586 1.414l8.704 8.704a2.426 2.426 0 0 0 3.42 0l6.58-6.58a2.426 2.426 0 0 0 0-3.42z"/><circle cx="7.5" cy="7.5" r="1.5"/></svg>一般商品報價</h4>
+        <span class="formula">韓幣售價 × 1.015（手續費）÷ 39（匯率）</span>
+        <ul>
+          <li>適用：零食／小型生活用品／飾品配件／服飾小物等</li>
         </ul>
         <h4><svg class="sec-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>樂天免稅店商品</h4>
         <ul>
@@ -90,7 +112,7 @@
         <h4><svg class="sec-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z"/><path d="M3.3 7 12 12l8.7-5"/><path d="M12 22V12"/></svg>大體積商品</h4>
         <ul>
           <li>酌收代購費 <span class="hl">NT$300／件</span></li>
-          <li>項目：鞋子／包包／後背包／大型禮盒／大型玩偶／厚重衣物外套／寢具／鍋具餐具組／大盒裝食品／其他大型或特殊包裝商品</li>
+          <li>項目：鞋子／大型禮盒／大型玩偶／厚重衣物外套／寢具／鍋具餐具組／大盒裝食品／其他大型或特殊包裝商品</li>
         </ul>
         <h4><svg class="sec-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg>熱門／限量商品</h4>
         <ul>
@@ -100,7 +122,6 @@
         <ul>
           <li><span class="hl">報價以下單當下實際售價為準</span></li>
           <li><span class="hl">匯率依當次代購公告為準</span></li>
-          <li><span class="hl">非連線期間代購將略有不同，詳細報價請私訊客服</span></li>
           <li>尺寸／重量超出預期，代購費可能調整，購買前會先告知</li>
           <li>熱門／限量商品<span class="hl-warn">不保證能購入</span></li>
           <li>缺貨或價格異動會於購買前確認</li>
@@ -120,13 +141,13 @@
         <h2 id="quote-heading">您的商品報價是</h2>
         <div class="quote-inner">
           <div class="quote-total" id="result-total">NT$ 0元</div>
-          <div class="quote-sub">不含賣貨便運費</div>
+          <div class="quote-sub">不含二補國際運費</div>
+          <p class="quote-ship-note">最終金額需另加二補國際運費<br>每 0.1kg NT$20，依商品實重計算</p>
           <div class="breakdown" id="breakdown"></div>
         </div>
-        <p class="quote-disclaimer">※僅供快速自助報價，實際金額以代購當下為準歡迎私訊確認之報價。</p>
       </div>
     </div>
-    <p class="quote-period">此報價計算方式為連線期間適用</p>
+    <p class="quote-period">※實際金額以購買時售價為準，歡迎私訊確認。</p>
   </div>
 </div>
 <button type="button" class="quote-close" id="quote-close" hidden aria-label="關閉報價">

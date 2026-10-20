@@ -173,7 +173,7 @@ header{
   border: 0;
 }
 
-#kr-mode-wrap{
+#mode-wrap{
   width: 100%;
 }
 
@@ -202,10 +202,6 @@ header{
   font-weight: 400;
   font-size: .68rem;
   opacity: .85;
-}
-
-.seg button[data-m="lotte"]{
-  border: 1.5px solid #fff;
 }
 
 .seg button[aria-pressed="true"]{
